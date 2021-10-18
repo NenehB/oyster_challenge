@@ -17,4 +17,12 @@ describe TrainStation do
   subject = TrainStation.new
   expect(subject.deduct(4.50,card)).to eq 5.50
 end 
+
+it 'should tell me where I have travelled from' do 
+  card = OysterCard.new 
+  card.add_balance(15)
+  subject = TrainStation.new
+  subject.in(card)
+  expect(subject.entry_point(card)).to eq 'St pancrass'
+end 
 end  

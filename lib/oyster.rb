@@ -6,10 +6,12 @@ COMPLETED_JOURNEY_FARE = 4.50
 class OysterCard
   attr_reader :balance
   attr_reader :in
+  attr_reader :entry_point
 
   def initialize 
     @balance = INITIAL_BALANCE
     @in = false
+    @entry_point = ''
   end 
 
   def add_balance(money)
@@ -21,6 +23,7 @@ class OysterCard
     @balance -= amount 
   end 
   def in
+    @entry_point = 'St pancrass'
     @in = true 
   end 
   def out
@@ -30,4 +33,5 @@ class OysterCard
   def travellable?
      @balance >= MINIMUM_BALANCE
   end 
+  
 end 
