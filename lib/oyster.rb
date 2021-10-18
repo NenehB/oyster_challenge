@@ -12,5 +12,7 @@ class OysterCard
     fail 'Excceded maximum balance'  unless recieving_value <= MAX_BALANCE
     @balance = recieving_value 
   end 
-  
+  def deduct(amount)
+    @balance -= amount 
+  end 
 end 

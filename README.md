@@ -1,5 +1,5 @@
 # oyster_challenge
-In order to use public transport
+<!-- In order to use public transport
 As a customer
 I want money on my card
 
@@ -9,7 +9,7 @@ I want to add money to my card
 
 In order to protect my money
 As a customer
-I don't want to put too much money on my card
+I don't want to put too much money on my card -->
 
 In order to pay for my journey
 As a customer
