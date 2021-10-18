@@ -11,13 +11,13 @@ In order to protect my money
 As a customer
 I don't want to put too much money on my card -->
 
-In order to pay for my journey
+<!-- In order to pay for my journey
 As a customer
-I need my fare deducted from my card
+I need my fare deducted from my card -->
 
-In order to get through the barriers
+<!-- In order to get through the barriers
 As a customer
-I need to touch in and out
+I need to touch in and out -->
 
 In order to pay for my journey
 As a customer
