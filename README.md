@@ -27,9 +27,9 @@ I need to have the minimum amount for a single journey -->
 As a customer
 I need to pay for my journey when it's complete -->
 
-In order to pay for my journey
+<!-- In order to pay for my journey
 As a customer
-I need to know where I've travelled from
+I need to know where I've travelled from -->
 
 In order to know where I have been
 As a customer

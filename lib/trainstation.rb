@@ -13,4 +13,10 @@ class TrainStation
   def entry_point(card)
     card.entry_point
   end 
+  def exit_point(card)
+    card.exit_point
+  end 
+  def show_last_journey(card)
+    card.show_last_journey
+  end 
 end 

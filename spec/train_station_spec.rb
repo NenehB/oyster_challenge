@@ -25,4 +25,19 @@ it 'should tell me where I have travelled from' do
   subject.in(card)
   expect(subject.entry_point(card)).to eq 'St pancrass'
 end 
+it 'should exit journeys' do 
+  card = OysterCard.new 
+  card.add_balance(15)
+  subject = TrainStation.new
+  subject.out(card)
+  expect(subject.exit_point(card)).to eq 'Paddington'
+end 
+  it 'should show the previous journey'do 
+    card = OysterCard.new 
+    card.add_balance(15)
+    subject = TrainStation.new
+    subject.in(card)
+    subject.out(card)
+    expect(subject.show_last_journey(card)).to eq [{"St pancrass"=>"Paddington"}]
+  end 
 end  
