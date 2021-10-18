@@ -7,4 +7,7 @@ class TrainStation
   def out(card)
     card.out
   end 
+  def deduct(amount, card)
+    card.deduct(amount)
+  end 
 end 

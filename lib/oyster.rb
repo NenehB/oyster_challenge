@@ -1,6 +1,8 @@
 INITIAL_BALANCE = 0 
 MAX_BALANCE = 30
 MINIMUM_BALANCE = 1.80
+COMPLETED_JOURNEY_FARE = 4.50
+
 class OysterCard
   attr_reader :balance
   attr_reader :in
@@ -22,6 +24,7 @@ class OysterCard
     @in = true 
   end 
   def out
+    @balance -= COMPLETED_JOURNEY_FARE 
     @in = false
   end 
   def travellable?

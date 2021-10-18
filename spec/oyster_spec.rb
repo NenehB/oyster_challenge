@@ -38,4 +38,5 @@ describe OysterCard do
     subject.travellable?
     expect(subject.travellable?).to eq true
   end 
+  
 end 

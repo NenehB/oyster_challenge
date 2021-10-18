@@ -19,13 +19,13 @@ I need my fare deducted from my card -->
 As a customer
 I need to touch in and out -->
 
-In order to pay for my journey
+<!-- In order to pay for my journey
 As a customer
-I need to have the minimum amount for a single journey
+I need to have the minimum amount for a single journey -->
 
-In order to pay for my journey
+<!-- In order to pay for my journey
 As a customer
-I need to pay for my journey when it's complete
+I need to pay for my journey when it's complete -->
 
 In order to pay for my journey
 As a customer
